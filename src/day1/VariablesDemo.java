@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class VariablesDemo {
     public static void main(String[] args) {
-        // Create a Scanner object to read input
+
         Scanner v= new Scanner(System.in);
 
 
