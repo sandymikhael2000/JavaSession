@@ -2,7 +2,7 @@ package day2;
 
 public class InterviewProblemSolving {
     public static void main(String[] args) {
-        // Swapping two numbers
+        // Swapping two num
 //        int a=10;
 //        int b =20;
 //        int temp=a;
