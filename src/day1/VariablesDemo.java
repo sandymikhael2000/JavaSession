@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class VariablesDemo {
     public static void main(String[] args) {
-//input
+
         Scanner v= new Scanner(System.in);
         System.out.print("Enter the first number (x): ");
         int x = v.nextInt();
