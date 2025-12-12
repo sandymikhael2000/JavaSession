@@ -51,6 +51,34 @@ public class Operators {
         //a+b , a>b
         //var = exp? true :false
 
+      // #######################################################################################################
+                // Example of assignment and equality
+                int a = 5; // Assignment
+                int b = 5; // Assignment
 
-    }
+                // Checking equality
+                System.out.println("a == b: " + (a == b)); // Output: true
+
+                // Using unary operators
+                a++; // Increment
+                System.out.println("After incrementing, a: " + a); // Output: 6
+
+                // Using binary operators
+                int sum = a + b; // Addition
+                System.out.println("Sum of a and b: " + sum); // Output: 11
+
+                // Using ternary operator
+                int max = (a > b) ? a : b; // Assigning the greater value
+                System.out.println("Max value: " + max); // Output: 6 (since a is greater)
+
+                // Using a nested example
+                int c = 10;
+                int d = 20;
+
+                System.out.println("c == d: " + (c == d)); // Output: false
+                System.out.println("c + d: " + (c + d)); // Output: 30
+                System.out.println("Is c the maximum? " + (c > d ? "Yes" : "No")); // Output: No
+            }
+
+
 }
