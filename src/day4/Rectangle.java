@@ -1,9 +1,10 @@
 package day4;
 
 public class Rectangle {
-     static private double length=10;
-      private double  width=20;
-     private static double counter;
+      protected double length=10;
+      protected double  width=20;
+      private static double counter;
+      protected int side=4;
 
      public Rectangle()
      {
@@ -23,7 +24,7 @@ public class Rectangle {
         return counter;
     }
 
-    public  static void setLength(double l) {
+    public  void setLength(double l) {
         length = l;
     }
 
@@ -45,7 +46,7 @@ public class Rectangle {
         return length*width;
     }
 
-    double calculatePerimeter(){
+   public double calculatePerimeter(){
 //        double perimeter=length*2+width*2;
 //        return perimeter;
         return length*2+width*2;

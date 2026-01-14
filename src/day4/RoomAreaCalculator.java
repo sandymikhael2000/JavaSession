@@ -5,8 +5,8 @@ public class RoomAreaCalculator {
         // I did that because i made the setlength() method static that's why i can call it with the name of the class not
         // with the object + don't use this word if it's static
         Rectangle room1=new Rectangle();
-        Rectangle.setLength(10);
-        Rectangle.setLength(20);
+//        Rectangle.setLength(10);
+//        Rectangle.setLength(20);
 
         //or  without static
 //        Rectangle room1=new Rectangle();
